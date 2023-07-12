@@ -11,3 +11,12 @@ img {
 .navbar [alt="logo-big"] {
   width: 6rem;
 }
+
+.navbar li {
+  list-style: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
