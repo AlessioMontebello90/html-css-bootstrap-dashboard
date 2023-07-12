@@ -20,3 +20,11 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
+/* SIDEBAR */
+
+#sidebar {
+  width: 150px;
+  height: calc(100vh - 56px);
+  background-color: #051e34;
+}
