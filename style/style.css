@@ -1,0 +1,13 @@
+img {
+  max-width: 100%;
+}
+
+/* HEADER */
+
+.navbar [alt="logo-small"] {
+  width: 3rem;
+}
+
+.navbar [alt="logo-big"] {
+  width: 6rem;
+}
