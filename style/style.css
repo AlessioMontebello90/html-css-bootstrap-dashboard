@@ -48,9 +48,6 @@ main {
 
 /* MAIN CONTENT */
 
-#main {
-}
-
 .plus-btn {
   width: 2.5rem;
   height: 2.5rem;
@@ -61,6 +58,43 @@ main {
   padding: 0.1rem 1rem;
   display: inline;
   border-radius: 2rem;
+}
+
+/* TABLE */
+
+/* TABLE */
+
+table img {
+  width: 20px;
+  margin: 5px;
+}
+
+.label-done {
+  background-color: green;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.label-fail {
+  background-color: red;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.label-process {
+  background-color: gold;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.scroll {
+  overflow: auto;
 }
 
 /* MEDIA QUERY */
@@ -78,5 +112,9 @@ main {
 
   form {
     width: 75%;
+    max-width: 150px;
+  }
+  thead td:first-child {
+    width: 50%;
   }
 }
