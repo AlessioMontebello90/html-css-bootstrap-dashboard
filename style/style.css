@@ -48,19 +48,11 @@ main {
 
 /* MAIN CONTENT */
 
-.plus-btn {
-  width: 2.5rem;
-  height: 2.5rem;
-  line-height: 1.25rem;
-}
-
 .label {
   padding: 0.1rem 1rem;
   display: inline;
   border-radius: 2rem;
 }
-
-/* TABLE */
 
 /* TABLE */
 
@@ -108,13 +100,16 @@ table img {
 @media screen and (min-width: 992px) {
   #sidebar {
     width: 13%;
+    max-width: 150px;
   }
 
   form {
     width: 75%;
-    max-width: 150px;
   }
   thead td:first-child {
     width: 50%;
+  }
+  #offcanva {
+    width: 50% !important;
   }
 }
