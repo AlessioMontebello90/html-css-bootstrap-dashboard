@@ -27,7 +27,7 @@ nav {
 }
 
 .navbar [alt="logobig"] {
-  width: 6rem;
+  width: 8rem;
 }
 
 .navbar li {
@@ -46,12 +46,25 @@ main {
   background-color: #051e34;
 }
 
+/* sidebar hover effects */
+
+#sidebar div:hover {
+  background-color: #ffffff6b;
+}
+
 /* MAIN CONTENT */
 
 .label {
   padding: 0.1rem 1rem;
   display: inline;
   border-radius: 2rem;
+}
+
+/* main hover effects */
+
+.plus-btn:hover a {
+  background-color: white;
+  color: #0d6efd;
 }
 
 /* TABLE */
@@ -106,9 +119,11 @@ table img {
   form {
     width: 75%;
   }
+
   thead td:first-child {
     width: 50%;
   }
+
   #offcanva {
     width: 50% !important;
   }
